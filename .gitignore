@@ -1,12 +1,31 @@
 # VS Code settings
 .vscode/
 
-# Node modules (if applicable)
-node_modules/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*env/
 
 # Build and distribution folders
-dist/
 build/
+dist/
+*.egg-info/
+
+# Node modules (if applicable)
+node_modules/
 
 # OS generated files
 .DS_Store
@@ -17,3 +36,4 @@ Thumbs.db
 
 # Temporary files
 *.tmp
+*.temp
